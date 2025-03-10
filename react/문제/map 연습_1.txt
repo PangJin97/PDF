@@ -1,0 +1,20 @@
+const studentList = [
+  {
+    name : '김자바',
+    age : 20,
+    korScore : 70,
+    engScore : 80
+  },
+  {
+    name : '이자바',
+    age : 30,
+    korScore : 90,
+    engScore : 90
+  },
+  {
+    name : '박자바',
+    age : 40,
+    korScore : 60,
+    engScore : 100
+  },
+];

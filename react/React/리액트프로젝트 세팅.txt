@@ -1,0 +1,25 @@
+확장 프로그램설치
+eslint - 문법 확인용
+ - eslint.config.js 파일의 rules 마지막에 아래 두 줄 추가 (이건 프로젝트마다 해줘야함)
+       'react/prop-types': 'off',
+       "no-unused-vars": "off",
+       'react-hooks/rules-of-hooks': 'off'
+
+prettier - 코드 스타일 맞춤용(수동 저장마다 실행)
+ - 설정에서 format on save 검색해서 체크
+ - 설정에서 default format검색해서 prettier 적용
+
+react 프로젝트 생성 명령어 : npm create vite@latest
+생성한 프로젝트에 라이브러리 설치 명령어 : npm install, npm i
+프로젝트 실행 명령어 : o + enter
+프로젝트 재시작 명령어 : r + enter
+프로젝트 종료 명령어 : q + enter
+
+index.css에 reset.css를 붙여넣기 
+
+-axios 라이브러리 설치(spring과 데이터 통신에 사용)
+npm install axios
+
+npm i react-router-dom
+
+npm i dayjs
