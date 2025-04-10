@@ -26,4 +26,4 @@ npm i dayjs
 
 npm install @reduxjs/toolkit react-redux
 
-npm install install jwt-decode
+npm install jwt-decode
