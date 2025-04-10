@@ -1,0 +1,6 @@
+쇼핑몰 프로젝트 스프링 깃허브 url
+https://github.com/hyungjin099/shop_back.git
+
+쇼핑몰 프로젝트 리액트 깃허브 url
+https://github.com/hyungjin099/shop_front.git
+

@@ -1,0 +1,24 @@
+git init 
+git add .(또는 파일명)
+git commit -m "커밋 메세지"
+git remote add origin 원격 저장소 url
+git branch -m main
+git push origin main
+
+=>이후엔 add, commit,  push 순으로 반복
+
+-처음 내려받을 때는 
+git clone 원격저장소 url
+
+-다음에 내려 받을 때는
+git pull origin main (중요)
+
+그후 add -> commit -> push 
+
+git bash에서는 복사/붙여넣기 단축키가 다르다.  ->  
+복사 : Ctrl + Insert
+붙여넣기 : Shift + Insert
+
+git status -> 상태확인
+
+git config core.autocrlf true 

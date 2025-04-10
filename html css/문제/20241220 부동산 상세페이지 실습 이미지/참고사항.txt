@@ -1,0 +1,16 @@
+
+어썸폰트 cdn
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+침실이미지 : <i class="fa-solid fa-bed"></i>
+화장실이미지 : <i class="fa-solid fa-bath"></i>
+하트이미지 : <i class="fa-regular fa-heart"></i>
+
+----------------------------------------------------
+
+사용폰트(구글폰트 싸이트 활용)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+font-family: "Montserrat", sans-serif; 
+
+----------------------------------------------------

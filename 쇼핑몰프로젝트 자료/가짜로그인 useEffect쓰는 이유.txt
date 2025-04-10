@@ -1,0 +1,19 @@
+로그인 정보 해석순서 
+-먼저 로그인 에 성공하면 스토리지에 문자열화 해서 loginInfo에 넣는다
+-app에 가서 로그인 정보를 저장할 state 변수 선언 
+-세션 스토리지에 있는 loginInfo를 가져오고 객체로 변환 
+
+useEffect 쓴 이유 
+
+로그인 하면 
+1.loginInfo 변수에 로그인 정보 저장
+2. sessionStorage에도 로그인 정보 저장 
+
+=> Login.jsx 
+
+새로고침
+1. loginInfo 변수의 데이터는 초기화(일반변수이기 때문에)
+2. sessionStorage에 저장된 데이터는 유지된다. 
+3. App.jsx를 다시 읽고 -> useEffect가 실행 
+  -> sessionStorage에 있는 로그인 정보를 가져와서 
+      loginInfo변수에 다시 넣어준다. 
