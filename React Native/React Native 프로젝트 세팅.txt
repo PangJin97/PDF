@@ -16,4 +16,9 @@ app 폴더안에 index.js 생성 -> 이 파일이 최초 실행 파일임
 
 구글 머터리얼 디자인
 
+icon 사용 라이브러리
+npm install @expo/vector-icons
+아이콘 웹 페이지 : https://icons.expo.fyi/Index
+
+
 
