@@ -20,5 +20,9 @@ icon 사용 라이브러리
 npm install @expo/vector-icons
 아이콘 웹 페이지 : https://icons.expo.fyi/Index
 
+npx expo install expo-secure-store   ( import * as SecureStore from 'expo-secure-store'; )
+npm install @reduxjs/toolkit react-redux
+npm install install jwt-decode
+
 
 
